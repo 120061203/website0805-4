@@ -1,73 +1,78 @@
-.header{
+.header {
     display: flex;
     padding: 0px 10px;
     background-color: #000000;
 }
-.header nav{
+
+.header nav {
     text-align: right;
     width: 100%;
     font-size: 0;
 }
-.header nav a{
+
+.header nav a {
     font-size: 16px;
     color: #fff;
     text-decoration: none;
-
     display: inline-block;
     line-height: 52px;
     padding: 0 10px;
 }
-.header nav a:hover{
+
+.header nav a:hover {
     background-color: #fa0;
 }
 
-.header .logo{
+.header .logo {
     display: inline-block;
-    padding:6px 0;
-
+    padding: 6px 0;
 }
 
-.banner img{
+.banner img {
     width: 100%;
 }
 
-
-.path{
+.path {
     display: flex;
 }
-.path li{
+
+.path li {
     padding: 6px 8px;
     position: relative;
-    
+    list-style: none;
+    /*去除點點*/
 }
 
-.path li a{
-    color:#aaa;
+.path li a {
+    color: #aaa;
     text-decoration: none;
-    font-size: 14px;;
+    font-size: 14px;
+    ;
 }
 
-.path li+li::before{
-    content:'/  ';
-    color:#aaa;
-    position:absolute;
-    left:0;
+.path li+li::before {
+    content: '/  ';
+    color: #aaa;
+    position: absolute;
+    left: 0;
 }
-.wrap{
-    width:960px;
+
+.wrap {
+    width: 960px;
     margin: auto;
 }
 
-.about .wrap{
-    display:flex;
+.about .wrap {
+    display: flex;
 }
 
-.about .wrap .item{
+.about .wrap .item {
     widows: 300px;
-    margin:0 10px;
+    margin: 0 10px;
     text-align: center;
 }
-.about h2{
+
+.about h2 {
     font-size: 36x;
     widows: 100%;
     text-align: center;
